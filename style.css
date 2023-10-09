@@ -1,0 +1,55 @@
+#content{
+	width: 888px;
+    margin: 0 auto;
+}
+#imageright{
+	margin-left: 20px;
+    float: right;
+    width: 250px;
+    border: forestgreen solid 1px;
+    border-radius: 10%;
+   
+}
+#imageleft{
+	margin-right: 40px;
+    float: left;
+    margin-bottom: 80px;
+    border: forestgreen solid 1px;
+    border-radius: 10%;
+}
+.kepszoveg{
+	text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+    color: forestgreen;
+    text-transform: uppercase;
+}
+h2{
+    color: forestgreen;
+    text-transform: uppercase;
+}
+ol{
+    text-align: justify;
+}
+ul{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+.jobbra{
+    float: right;
+}
+.balra{
+    float: left;
+}
