@@ -1,5 +1,5 @@
 #content{
-	width: 888px;
+	width: 90%;
     margin: 0 auto;
 }
 #imageright{
@@ -8,6 +8,7 @@
     width: 250px;
     border: forestgreen solid 1px;
     border-radius: 10%;
+    display: block;
    
 }
 #imageleft{
@@ -16,6 +17,7 @@
     margin-bottom: 80px;
     border: forestgreen solid 1px;
     border-radius: 10%;
+    display: block;
 }
 .kepszoveg{
 	text-align: center;
@@ -52,4 +54,19 @@ a:hover{
 }
 .balra{
     float: left;
+}
+@media only screen and (max-width: 600px) {
+    #imageleft{
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+    #imageright{
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+}
+p{
+    text-align: justify;
 }
