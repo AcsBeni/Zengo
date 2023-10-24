@@ -1,3 +1,8 @@
+body{
+    width: 70%;
+    margin:0 auto ;
+}
+
 #content{
 	width: 90%;
     margin: 0 auto;
@@ -69,7 +74,7 @@ a:hover{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 617px) {
     #imageleft{
         display: block;
         float: none;
