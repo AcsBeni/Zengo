@@ -4,27 +4,68 @@ body{
 }
 
 #content{
-	width: 90%;
+    max-width: 888px;
+	width: 80%;
     margin: 0 auto;
 }
 #imageright{
 	margin-left: 20px;
     float: right;
-    width: 250px;
-    border: forestgreen solid 1px;
-    border-radius: 10%;
-    display: block;
-   
+    max-width: 200px;
+    width: auto;
+    border-radius: 20px; 
+    border: 1px solid forestgreen;
 }
+#imageright img{
+    max-width: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+
+#imagerighter{
+    display: none;
+    margin-left: 20px;
+    float: right;
+    max-width: 200px;
+    width: auto;
+    border: forestgreen solid 1px;
+    border-radius: 20px;
+}
+#imagerighter img{
+    max-width: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+
 #imageleft{
 	margin-right: 40px;
     float: left;
     margin-bottom: 80px;
     border: forestgreen solid 1px;
-    border-radius: 10%;
-    display: block;
-    width: 300px;
+    border-radius: 20px;
+    width: auto;
+    max-width: 300px;
 }
+#imageleft img{
+    max-width: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+#imagelefter{
+    display: none;
+    margin-left: 20px;
+    float: right;
+    max-width: 300px;
+    width: auto;
+    border: forestgreen solid 1px;
+    border-radius: 20px; 
+}
+#imagelefter img{
+    max-width: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+
 .kepszoveg{
 	text-align: center;
     font-weight: bold;
@@ -38,10 +79,8 @@ h2{
     color: forestgreen;
     text-transform: uppercase;
 }
-ol{
-    text-align: justify;
-}
-ul{
+
+p, ul{
     text-align: justify;
 }
 a{
@@ -61,31 +100,34 @@ a:hover{
 .balra{
     float: left;
 }
-#imageLeft{
-    float: left;  
-    border-radius: 10%;
-    display: block;
-    width: 300px;  
-    margin-bottom: 10px; 
-}
+
 .felso{
     height: 20%;
     
 }
+sub{
+    text-decoration: none;
+    }
 
 
-@media only screen and (max-width: 617px) {
+@media only screen and (max-width: 600px) {
     #imageleft{
-        display: block;
+        display: none;
         float: none;
+        margin: 0 auto;
+    }
+    #imagelefter{
+        display: block;
         margin: 0 auto;
     }
     #imageright{
-        display: block;
+        display: none;
         float: none;
         margin: 0 auto;
     }
+    #imagerighter{
+        display: block;
+        margin: 0 auto;
+    }
 }
-p{
-    text-align: justify;
-}
+
